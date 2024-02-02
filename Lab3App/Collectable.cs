@@ -1,7 +1,6 @@
 namespace Lab3App
 {
-    // Collectable Abstract Class
-    public abstract class Collectable : IDisplayable
+    public abstract class Collectable : Displayable
     {
         public string Description { get; set; }
         public CollectionBoard Board { get; set; }

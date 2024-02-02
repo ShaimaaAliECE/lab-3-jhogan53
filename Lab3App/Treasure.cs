@@ -12,14 +12,14 @@ namespace Lab3App
         public override void AddMe(List<Collectable> list)
         {
             base.AddMe(list);
-            UpdateTotalScore(); // Calls UpdateTotalScore which updates CollectionBoard's TotalScore
+            UpdateTotalScore();
         }
 
         protected void UpdateTotalScore()
         {
             if (Board != null)
             {
-                Board.TotalScore += Score; // Directly updates the TotalScore in CollectionBoard
+                Board.TotalScore += Score;
                 Console.WriteLine($"Total Score is updated to: {Board.TotalScore}");
             }
         }

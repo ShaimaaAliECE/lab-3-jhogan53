@@ -11,8 +11,8 @@ namespace Lab3Apps
 
         public override void AddMe(List<Collectable> list)
         {
-            base.AddMe(list); // This calls the AddMe in Treasure, which updates the score
-            UpdateTotalValue(); // Now we need to update the total value with a message
+            base.AddMe(list);
+            UpdateTotalValue();
         }
 
         protected void UpdateTotalValue()

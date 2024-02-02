@@ -1,8 +1,7 @@
 namespace Lab3App
 namespace test
 {
-    // IDisplayable Interface
-    public interface IDisplayable
+    public interface Displayable
     {
         void Display();
     }
